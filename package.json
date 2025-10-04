@@ -1,0 +1,13 @@
+{
+  "name": "tugasakhir_dieudonnejordy",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "test:chrome": "cypress run --browser chrome --headed",
+    "test:all": "cypress run --browser chrome --headed --spec \"cypress/e2e/**/*.cy.js\""
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}
